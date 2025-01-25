@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TikTok视频下载器</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok视频下载器</h1>
+        <form action="{{ url_for('download') }}" method="post">
+            <input type="text" name="url" placeholder="请输入TikTok视频链接" required>
+            <button type="submit">下载视频</button>
+        </form>
+        <div id="status"></div>
+    </div>
+</body>
+</html> 

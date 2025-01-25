@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# 下载的视频文件
+downloads/
+
+# 虚拟环境
+venv/
+env/ 
