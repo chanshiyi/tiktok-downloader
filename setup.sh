@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "正在下载最新版本..."
-git clone https://github.com/你的用户名/仓库名称.git tiktok-downloader
+git clone https://github.com/chanshiyi/tiktok-downloader.git tiktok-downloader
 cd tiktok-downloader
 pip install -r requirements.txt
 playwright install
