@@ -7,6 +7,15 @@
 <body>
     <div class="container">
         <h1>TikTok视频下载器</h1>
+        <div class="instructions">
+            <h3>使用说明</h3>
+            <ol>
+                <li>打开 TikTok 视频页面</li>
+                <li>点击"分享"，然后复制链接</li>
+                <li>粘贴到下面的输入框</li>
+                <li>点击"下载视频"按钮</li>
+            </ol>
+        </div>
         <form action="{{ url_for('download') }}" method="post">
             <input type="text" name="url" placeholder="请输入TikTok视频链接" required>
             <button type="submit">下载视频</button>
